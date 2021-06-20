@@ -195,7 +195,7 @@ void FarmWindow::createPage1(){
 	c2 = PSNAContent("psna wps");
 }
 void FarmWindow::createPage2() {
-	std::vector<std::string> v = { "TODO: add drizzlewood content here" };
+	std::vector<std::string> v = { "TODO: add drizzlewood content later" };
 	c3 = Content();
 }
 void FarmWindow::createPage3(){
