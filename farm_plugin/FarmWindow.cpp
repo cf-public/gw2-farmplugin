@@ -13,6 +13,8 @@
 #include "Page1.h"
 #include "Page2.h"
 #include "Page3.h"
+#include "Page4.h"
+#include "Page5.h"
 
 FarmWindow::FarmWindow() {
 	visible = false;
@@ -24,6 +26,8 @@ FarmWindow::FarmWindow() {
 	pages.push_back(std::make_unique<Page1>());
 	pages.push_back(std::make_unique<Page2>());
 	pages.push_back(std::make_unique<Page3>());
+	pages.push_back(std::make_unique<Page4>());
+	pages.push_back(std::make_unique<Page5>());
 
 
 };
@@ -56,6 +60,9 @@ void FarmWindow::draw(ImGuiWindowFlags flags){//(bool* p_open, ImGuiWindowFlags 
 		currentPage = 2;
 	}
 	ImGui::SameLine(200);
+	if (ImGui::Button("Page 4")) {
+		currentPage = 3;
+	}
 	if (ImGui::Button("Page 4")) {
 		currentPage = 4;
 	}

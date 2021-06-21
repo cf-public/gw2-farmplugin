@@ -63,6 +63,9 @@
     <ClInclude Include="Page4.h">
       <Filter>Source Files\Pages</Filter>
     </ClInclude>
+    <ClInclude Include="Page5.h">
+      <Filter>Source Files\Pages</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -105,6 +108,9 @@
       <Filter>Source Files\Pages</Filter>
     </ClCompile>
     <ClCompile Include="Page4.cpp">
+      <Filter>Source Files\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Page5.cpp">
       <Filter>Source Files\Pages</Filter>
     </ClCompile>
   </ItemGroup>
