@@ -1,0 +1,1 @@
+# small daily farm plugin for arcdps

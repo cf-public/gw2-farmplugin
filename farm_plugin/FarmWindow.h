@@ -5,7 +5,9 @@
 #include <vector>
 #include <string>
 #include <array>
-#include "IPage.h"
+#include "Page1.h"
+#include "Page2.h"
+#include "Page3.h"
 
 #include "imgui/imgui.h"
 #include "imgui/imgui_internal.h"

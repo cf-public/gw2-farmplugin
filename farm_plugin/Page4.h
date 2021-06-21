@@ -1,9 +1,9 @@
 #pragma once
 #include "IPage.h"
 
-class Page3 : public IPage {
+class Page4 : public IPage {
 public:
-	Page3();
+	Page4();
 	void draw() override;
 	void createContent();
 };

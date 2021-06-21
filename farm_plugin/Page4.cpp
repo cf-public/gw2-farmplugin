@@ -1,11 +1,11 @@
 #include "IPage.h"
-#include "Page3.h"
+#include "Page4.h"
 
-Page3::Page3() {
+Page4::Page4() {
 	createContent();
 }
 
-void Page3::draw() {
+void Page4::draw() {
 	std::vector<std::string>* s = c.getContent();
 	for (int i = 0; i < s->size(); i++) {
 		ImGui::PushID(2 * i);
@@ -18,7 +18,7 @@ void Page3::draw() {
 	}
 }
 
-void Page3::createContent() {
+void Page4::createContent() {
 	std::vector<std::string> v = { "Create Human with commoner background", 
 		"Play Story", "Collect Key", "Remove Equipment", "Delete Character", "Profit"
 	};
