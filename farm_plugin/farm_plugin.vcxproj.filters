@@ -22,6 +22,9 @@
     <Filter Include="Source Files\Content">
       <UniqueIdentifier>{41558fe1-1b7d-457d-a9bd-1a3186a8c834}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Pages">
+      <UniqueIdentifier>{0998d66e-0a28-45ef-927f-fb626c370254}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -44,6 +47,21 @@
     </ClInclude>
     <ClInclude Include="IContent.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IPage.h">
+      <Filter>Source Files\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="Page1.h">
+      <Filter>Source Files\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="Page2.h">
+      <Filter>Source Files\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="Page3.h">
+      <Filter>Source Files\Pages</Filter>
+    </ClInclude>
+    <ClInclude Include="Page4.h">
+      <Filter>Source Files\Pages</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -76,6 +94,18 @@
     </ClCompile>
     <ClCompile Include="PSNAContent.cpp">
       <Filter>Source Files\Content</Filter>
+    </ClCompile>
+    <ClCompile Include="Page1.cpp">
+      <Filter>Source Files\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Page2.cpp">
+      <Filter>Source Files\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Page3.cpp">
+      <Filter>Source Files\Pages</Filter>
+    </ClCompile>
+    <ClCompile Include="Page4.cpp">
+      <Filter>Source Files\Pages</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

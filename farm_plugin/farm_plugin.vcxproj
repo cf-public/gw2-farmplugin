@@ -159,6 +159,11 @@
     <ClInclude Include="Content.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="IContent.h" />
+    <ClInclude Include="IPage.h" />
+    <ClInclude Include="Page1.h" />
+    <ClInclude Include="Page2.h" />
+    <ClInclude Include="Page3.h" />
+    <ClInclude Include="Page4.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="FarmWindow.h" />
     <ClInclude Include="PSNAContent.h" />
@@ -171,6 +176,10 @@
     <ClCompile Include="imgui\imgui_draw.cpp" />
     <ClCompile Include="imgui\imgui_tables.cpp" />
     <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="Page1.cpp" />
+    <ClCompile Include="Page2.cpp" />
+    <ClCompile Include="Page3.cpp" />
+    <ClCompile Include="Page4.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
